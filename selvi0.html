@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Modern Home Suggestions</title>
+<style>
+body
+{
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container 
+{
+  width: 500px;
+  margin: 90px auto;
+  background:linear-gradient(135deg,#667eea,#764ba2) ;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+h1 
+{
+  text-align: center;
+  color: #333;
+}
+
+label 
+{
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+       input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 150px;
+            resize: none;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Modern Home</h1>
+     
+
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="suggestion">Your Suggestion</label>
+            <textarea id="suggestion" placeholder="Write your suggestion here..."></textarea>
+
+            <button type="submit">Submit Suggestion</button>
+        </form>
+    </div>
+
+</body>
+</html>
